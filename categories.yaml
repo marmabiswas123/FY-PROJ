@@ -1,0 +1,51 @@
+# Category registry – edit this file to add/remove topics
+# Each entry becomes a Category object (id, name, keywords, rss_feeds, search_queries)
+
+categories:
+  - id: "tech"
+    name: "Technology"
+    keywords:
+      - "artificial intelligence"
+      - "machine learning"
+      - "cybersecurity"
+      - "software"
+      - "hardware"
+    rss_feeds:
+      - "https://feeds.arstechnica.com/arstechnica/technology-lab"
+      - "https://www.theverge.com/rss/tech.xml"
+    search_queries:
+      - "AI breakthrough"
+      - "new smartphone release"
+      - "data breach"
+
+  - id: "health"
+    name: "Health & Medicine"
+    keywords:
+      - "covid"
+      - "vaccine"
+      - "clinical trial"
+      - "mental health"
+      - "nutrition"
+    rss_feeds:
+      - "https://www.nih.gov/news-events/news-releases/feed"
+      - "https://www.medicalnewstoday.com/rss"
+    search_queries:
+      - "new treatment approved"
+      - "public health guidelines"
+
+  - id: "finance"
+    name: "Finance & Business"
+    keywords:
+      - "stock market"
+      - "cryptocurrency"
+      - "earnings report"
+      - "inflation"
+      - "interest rate"
+    rss_feeds:
+      - "https://feeds.reuters.com/reuters/businessNews"
+      - "https://www.bloomberg.com/feed/podcasts.xml"
+    search_queries:
+      - "quarterly earnings surprise"
+      - "fed rate decision"
+
+  # Add more categories as needed…
